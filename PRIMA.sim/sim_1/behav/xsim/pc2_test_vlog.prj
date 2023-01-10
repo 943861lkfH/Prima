@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PRIMA_PC2.srcs/sources_1/new/COUNTER.v" \
+"../../../../PRIMA_PC2.srcs/sources_1/new/DC_pc2.v" \
+"../../../../PRIMA_PC2.srcs/sources_1/new/DEVICE.v" \
+"../../../../PRIMA_PC2.srcs/sources_1/new/LED.v" \
+"../../../../PRIMA_PC2.srcs/sources_1/new/RECIEVER_pc2.v" \
+"../../../../PRIMA_PC2.srcs/sources_1/new/prima.v" \
+"../../../../PRIMA_PC2.srcs/sim_1/new/pc2_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

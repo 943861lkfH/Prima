@@ -1,0 +1,13 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 5a60108b967943e19cd283bccf564459 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pc2_test_behav xil_defaultlib.pc2_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 20 for port 'clk' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:75]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 20 for port 'rst' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:77]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 20 for port 'R_I' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:78]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 20 for port 'get_out' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:79]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 20 for port 'readIn' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:80]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'pc2_ro' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/PRIMA_PC2/PRIMA_PC2.srcs/sources_1/new/DEVICE.v:94]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
